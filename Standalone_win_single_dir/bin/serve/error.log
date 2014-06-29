@@ -1,0 +1,50 @@
+[29/Jun/2014:13:15:57] ENGINE Listening for SIGTERM.
+[29/Jun/2014:13:15:57] ENGINE Bus STARTING
+[29/Jun/2014:13:15:57] ENGINE Configuring the Django application
+[29/Jun/2014:13:15:57] ENGINE Mounting the Django application
+[29/Jun/2014:13:15:57] ENGINE Setting up the static directory to be served
+[29/Jun/2014:13:15:57] ENGINE Set handler for console events.
+[29/Jun/2014:13:15:57] ENGINE Started monitor thread '_TimeoutMonitor'.
+[29/Jun/2014:13:15:57] ENGINE Serving on 127.0.0.1:8000
+[29/Jun/2014:13:15:57] ENGINE Bus STARTED
+[29/Jun/2014:13:16:42] ENGINE Console event 2: shutting down bus
+[29/Jun/2014:13:16:42] ENGINE Removed handler for console events.
+[29/Jun/2014:13:16:42] ENGINE Bus STOPPING
+[29/Jun/2014:13:16:43] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[29/Jun/2014:13:16:43] ENGINE Handler for console events already off.
+[29/Jun/2014:13:16:43] ENGINE Stopped thread '_TimeoutMonitor'.
+[29/Jun/2014:13:16:43] ENGINE Bus STOPPED
+[29/Jun/2014:13:16:43] ENGINE Bus EXITING
+[29/Jun/2014:13:16:43] ENGINE Waiting for child threads to terminate...
+[29/Jun/2014:13:16:43] ENGINE Bus EXITED
+[29/Jun/2014:13:17:50] ENGINE Listening for SIGTERM.
+[29/Jun/2014:13:17:50] ENGINE Bus STARTING
+[29/Jun/2014:13:17:50] ENGINE Configuring the Django application
+[29/Jun/2014:13:17:50] ENGINE Mounting the Django application
+[29/Jun/2014:13:17:50] ENGINE Setting up the static directory to be served
+[29/Jun/2014:13:17:50] ENGINE Set handler for console events.
+[29/Jun/2014:13:17:50] ENGINE Started monitor thread '_TimeoutMonitor'.
+[29/Jun/2014:13:17:50] ENGINE Serving on 127.0.0.1:8000
+[29/Jun/2014:13:17:50] ENGINE Bus STARTED
+[29/Jun/2014:13:19:17] ENGINE Console event 2: shutting down bus
+[29/Jun/2014:13:19:17] ENGINE Removed handler for console events.
+[29/Jun/2014:13:19:17] ENGINE Bus STOPPING
+[29/Jun/2014:13:19:17] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[29/Jun/2014:13:19:17] ENGINE Stopped thread '_TimeoutMonitor'.
+[29/Jun/2014:13:19:17] ENGINE Handler for console events already off.
+[29/Jun/2014:13:19:17] ENGINE Bus STOPPED
+[29/Jun/2014:13:19:17] ENGINE Bus EXITING
+[29/Jun/2014:13:19:17] ENGINE Waiting for child threads to terminate...
+[29/Jun/2014:13:19:17] ENGINE Bus EXITED
+[29/Jun/2014:13:24:58] ENGINE Listening for SIGTERM.
+[29/Jun/2014:13:24:58] ENGINE Bus STARTING
+[29/Jun/2014:13:24:58] ENGINE Configuring the Django application
+[29/Jun/2014:13:24:58] ENGINE Mounting the Django application
+[29/Jun/2014:13:24:58] ENGINE Setting up the static directory to be served
+[29/Jun/2014:13:24:58] ENGINE Set handler for console events.
+[29/Jun/2014:13:24:58] ENGINE Started monitor thread '_TimeoutMonitor'.
+[29/Jun/2014:13:24:58] ENGINE Serving on 127.0.0.1:8000
+[29/Jun/2014:13:24:58] ENGINE Bus STARTED
+[29/Jun/2014:13:25:02] ENGINE Console event 2: shutting down bus
+[29/Jun/2014:13:25:02] ENGINE Removed handler for console events.
+[29/Jun/2014:13:25:02] ENGINE Bus STOPPING

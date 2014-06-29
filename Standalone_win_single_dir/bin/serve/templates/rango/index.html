@@ -1,0 +1,46 @@
+{% extends 'rango/base.html' %}
+
+{% load static %}
+
+{% block body_block %}
+<div class="hero-unit">
+    {% if user.is_authenticated %}
+    <h1>Rango says...Hello {{ user.username }}</h1>
+    {% else %}
+    <h1>Rango says......Hello World</h1>
+    {% endif %}
+</div>
+
+<div class="row-fluid">
+    <div class="span6">
+    {% if categories %}
+        <ul>
+            <h2>Categories</h2>
+            {% for category in categories %}
+            <li><a href="/rango/category/{{ category.url }}">{{ category.name }}</a></li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    </div>
+    <div class="span6">
+    {% if view_count %}
+        <ul>
+        <h2>Top 5 Viewed Categories</h2>
+        {% for view in view_count %}
+        <li><a href="/rango/category/{{ view.url }}">{{ view.name }}</a> </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <strong>There are no categories.</strong><i>{{ category_clean_final }}</i>
+    {% endif %}
+    </div>
+{% endblock %}
+
+{% block sidebar %}
+    {% if all_categories %}
+        {% for item in all_categories %}
+            <li><a href="/rango/category/{{ item.url }}">{{ item.name }}</a> </li>
+        {% endfor %}
+    {% endif %}
+
+{% endblock %}
