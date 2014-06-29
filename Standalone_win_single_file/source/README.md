@@ -1,7 +1,9 @@
 To build you need the following modules
 
 Cherrypy 3.2.3
+
 Django 1.6.5
+
 pyinstaller 2.1
 
 
